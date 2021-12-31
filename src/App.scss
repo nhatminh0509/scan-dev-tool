@@ -1,0 +1,23 @@
+html {
+  background-color: var(--background);
+}
+.app-background-mask{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  transform: unset;
+  background: var(--background-mask);
+  background-blend-mode: overlay, normal;
+  z-index: -1;
+}
+.base-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

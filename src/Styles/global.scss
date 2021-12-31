@@ -1,0 +1,38 @@
+.wrapper{
+  padding: 0px 30px;
+  width: 100%;
+}
+
+@for $i from 0 through 200 {
+  .PT#{$i} {
+    padding-top: #{$i}px !important;
+  }
+
+  .PB#{$i} {
+    padding-bottom: #{$i}px !important;
+  }
+
+  .PL#{$i} {
+    padding-left: #{$i}px !important;
+  }
+
+  .PR#{$i} {
+    padding-right: #{$i}px !important;
+  }
+
+  .MT#{$i} {
+    margin-top: #{$i}px !important;
+  }
+
+  .MB#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .ML#{$i} {
+    margin-left: #{$i}px !important;
+  }
+
+  .MR#{$i} {
+    margin-right: #{$i}px !important;
+  }
+}
