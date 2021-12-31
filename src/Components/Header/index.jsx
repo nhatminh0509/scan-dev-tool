@@ -3,8 +3,8 @@ import { useContext } from 'react';
 // import { Link } from 'react-router-dom';
 import AppContext from '../../Context/AppContext';
 import './style.scss'
-import logo from '../../static/images/2Nlogo.png'
-import logoTrans from '../../static/images/2Nlogo-trans.png'
+// import logo from '../../static/images/2Nlogo.png'
+// import logoTrans from '../../static/images/2Nlogo-trans.png'
 import icDarkMode from '../../static/images/icon/moon.png'
 import icLightMode from '../../static/images/icon/sun.png'
 

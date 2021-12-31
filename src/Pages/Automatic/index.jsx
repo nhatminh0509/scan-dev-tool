@@ -62,6 +62,7 @@ const Automatic = () => {
     })
     arrMultil = arrMultil.filter(item => item !== null)
 
+    //eslint-disable-next-line
     let arrNotMultil = abi.inputs.map((item) => {
       if (!cloneObjInputs[item.name].isMulti) {
         objNotMulti[item.name] = cloneObjInputs[item.name]
@@ -69,7 +70,7 @@ const Automatic = () => {
       }
       return null
     })
-    arrNotMultil = arrNotMultil.filter(item => item !== null)
+    // arrNotMultil = arrNotMultil.filter(item => item !== null)
 
     let typeMulti = TYPE_MULTI.NONE
     let errorMulti = null
@@ -81,6 +82,7 @@ const Automatic = () => {
         }
       } else {
         typeMulti = TYPE_MULTI.ARRAY
+        //eslint-disable-next-line
         arrMultil.map((item) => {
           if (!item?.value?.startsWith('[') || !item.value.endsWith(']')) {
             errorMulti = 'Error: Multiple type.'

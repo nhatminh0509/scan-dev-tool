@@ -1,4 +1,4 @@
-import React, { createContext, ReactNode, useState } from 'react'
+import React, { createContext, useState } from 'react'
 
 const AppContext = createContext([])
 
