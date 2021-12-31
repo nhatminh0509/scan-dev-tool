@@ -2,11 +2,13 @@
   "name": "bacoor-dev-tool",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/nhatminh0509/scan-dev-tool/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.18.2",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "moments": "^0.0.2",
     "node-sass": "^4.0.0",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
