@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nhatminh0509/scan-dev-tool/static/css/main.d3f45940.chunk.css",
+    "main.js": "/nhatminh0509/scan-dev-tool/static/js/main.e152182c.chunk.js",
+    "main.js.map": "/nhatminh0509/scan-dev-tool/static/js/main.e152182c.chunk.js.map",
+    "runtime-main.js": "/nhatminh0509/scan-dev-tool/static/js/runtime-main.b3112860.js",
+    "runtime-main.js.map": "/nhatminh0509/scan-dev-tool/static/js/runtime-main.b3112860.js.map",
+    "static/js/2.216d00ae.chunk.js": "/nhatminh0509/scan-dev-tool/static/js/2.216d00ae.chunk.js",
+    "static/js/2.216d00ae.chunk.js.map": "/nhatminh0509/scan-dev-tool/static/js/2.216d00ae.chunk.js.map",
+    "index.html": "/nhatminh0509/scan-dev-tool/index.html",
+    "static/css/main.d3f45940.chunk.css.map": "/nhatminh0509/scan-dev-tool/static/css/main.d3f45940.chunk.css.map",
+    "static/js/2.216d00ae.chunk.js.LICENSE.txt": "/nhatminh0509/scan-dev-tool/static/js/2.216d00ae.chunk.js.LICENSE.txt",
+    "static/media/loading-dark.e2ffacc9.gif": "/nhatminh0509/scan-dev-tool/static/media/loading-dark.e2ffacc9.gif",
+    "static/media/loading.77dd8198.gif": "/nhatminh0509/scan-dev-tool/static/media/loading.77dd8198.gif",
+    "static/media/override.31d6cfe0.less": "/nhatminh0509/scan-dev-tool/static/media/override.31d6cfe0.less"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3112860.js",
+    "static/js/2.216d00ae.chunk.js",
+    "static/css/main.d3f45940.chunk.css",
+    "static/js/main.e152182c.chunk.js"
+  ]
+}
